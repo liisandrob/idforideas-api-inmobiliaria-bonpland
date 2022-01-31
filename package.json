@@ -1,0 +1,31 @@
+{
+  "name": "idforideas-api-inmobiliaria-bonpland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "Lisandro Blanco Bordenabe",
+  "contributors": [
+    {
+      "name": "Lisandro Blanco Bordenabe",
+      "email": "lisandroblancobordenabe@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0"
+  }
+}
