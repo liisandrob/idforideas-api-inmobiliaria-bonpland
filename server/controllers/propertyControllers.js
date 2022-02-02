@@ -76,7 +76,7 @@ propertyController.deleteProperty = async function (req, res, next) {
   
   const { id } = req.params;
   try {
-    if (!id) throw new Error('Código de referencia ya utilizado');
+    if (!id) throw new Error('Error en parámetros enviados');
 
     const consulta = await Property.findById(id);
     if (!consulta) throw new Error('Id inexistente');
