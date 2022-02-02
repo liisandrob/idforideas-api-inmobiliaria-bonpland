@@ -39,12 +39,10 @@ propertyController.registerProperty = async function (req, res, next) {
     if( !code || !images || !rooms || !country || !city || !surface || !price || !contract || !status ) {
       throw new Error('Error en parámetros enviados');
     }
-
-    const consulta = await Property.find({ code: { $regex : code, $options: 'i' } } );
+    const consulta = await Property.find({ code: { $regex : `^${code}$`, $options: 'i' } } );
     if (consulta.length > 0) throw new Error('Código de referencia ya utilizado');
 
     const prop = new Property({ code, images, highlight, rooms, country, city, surface, price, contract, status });
-
     await prop.save();
     res.status(200).send({ message: 'Propiedad creada exitosamente', data: prop });
   } catch (error) {

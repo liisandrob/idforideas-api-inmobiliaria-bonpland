@@ -1,15 +1,10 @@
 # ID for Ideas | Idea 5 - API para Inmobiliaria Bonpland
 
 ## Objetivo
-El usuario final debe poder acceder a un listado de inmuebles y poder utilizar filtros para
-encontrar el inmueble deseado en caso de que exista. En caso de encontrarlo, poder
-contactar a la inmobiliaria conociendo l a referencia del inmueble para ser más
-específico.
+El usuario final debe poder acceder a un listado de inmuebles y poder utilizar filtros para encontrar el inmueble deseado en caso de que exista. En caso de encontrarlo, poder contactar a la inmobiliaria conociendo la referencia del inmueble para ser más específico.
 
 ## Requisitos BackEnd
-Ver un listado del total de los inmuebles con los filtros necesarios para poder ver
-especificando: cantidad de ambientes, país ciudad, metros cuadrados m ínimos y
-máximos, rango de precio, y tipo de contratación (alquiler o compra).
+Ver un listado del total de los inmuebles con los filtros necesarios para poder ver especificando: cantidad de ambientes, país, ciudad, metros cuadrados mínimos y máximos, rango de precio, y tipo de contratación (alquiler o compra).
 
 Se debe poder acceder al detalle de cada inmueble y poder acceder a un link para
 contactar a la inmobiliaria enviando el código de referencia de ese inmueble en
